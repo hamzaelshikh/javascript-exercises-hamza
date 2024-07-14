@@ -33,5 +33,5 @@ describe('repeatString', () => {
   });
   test.skip('works with blank strings', () => {
     expect(repeatString('', 10)).toEqual('');
-  });
+    });
 });
